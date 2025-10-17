@@ -85,14 +85,14 @@ nav {
   font-weight: 700;
 }
 
-/* Container */
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
   padding: 3rem 2rem;
 }
 
-/* Auth Pages */
+
 .auth-container {
   max-width: 420px;
   margin: 6rem auto;
@@ -197,7 +197,7 @@ nav {
   font-size: 0.9rem;
 }
 
-/* Products Grid */
+
 .page-header {
   margin-bottom: 3rem;
 }
@@ -291,7 +291,6 @@ nav {
   cursor: not-allowed;
 }
 
-/* Cart Page */
 .cart-empty {
   text-align: center;
   padding: 4rem 2rem;
@@ -411,7 +410,6 @@ nav {
   color: var(--accent);
 }
 
-/* Cart Summary */
 .cart-summary {
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
@@ -466,7 +464,6 @@ nav {
   background-color: var(--accent-hover);
 }
 
-/* Responsive */
 @media (max-width: 1024px) {
   .cart-content {
     grid-template-columns: 1fr;
@@ -497,7 +494,6 @@ nav {
   }
 }
 
-/* Agregando estilos para notificaciones */
 .notificacion {
   position: fixed;
   bottom: 2rem;
