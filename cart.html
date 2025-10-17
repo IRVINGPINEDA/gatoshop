@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">GatoShop</a>
+            <div class="nav-links">
+                <a href="index.html">Productos</a>
+                <a href="cart.html" class="cart-badge">
+                    Carrito
+                    <span class="badge" id="cart-badge">0</span>
+                </a>
+                <a href="login.html" id="auth-link">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="page-header">
+            <h1>Mi Carrito</h1>
+            <p>Revisa tus productos</p>
+        </div>
+
+        <div id="cart-empty" class="cart-empty" style="display: none;">
+            <h2>Tu carrito está vacío</h2>
+        </div>
+
+        <div id="cart-content" class="cart-content" style="display: none;">
+            <div class="cart-items" id="cart-items">
+            </div>
+
+            <div class="cart-summary">
+                <h2>Resumen del Pedido</h2>
+                <div class="summary-row">
+                    <span>Subtotal:</span>
+                    <span id="subtotal">$0.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>Envío:</span>
+                    <span id="shipping">$0.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>IVA (16%):</span>
+                    <span id="tax">$0.00</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total:</span>
+                    <span class="amount" id="total">$0.00</span>
+                </div>
+                <button class="btn-checkout" id="btn-checkout">Finalizar Compra</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="notificacion" id="notificacion"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>

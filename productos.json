@@ -1,0 +1,68 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Casa Árbol para Gatos",
+      "descripcion": "Torre rascador de 5 niveles con hamacas y juguetes colgantes",
+      "precio": 89.99,
+      "imagen": "https://png.pngtree.com/png-vector/20220520/ourmid/pngtree-jpg-format-file-vector-icon-png-image_4712068.png",
+      "stock": 15
+    },
+    {
+      "id": 2,
+      "nombre": "Fuente de Agua Automática",
+      "descripcion": "Dispensador de agua con filtro y circulación continua de 2L",
+      "precio": 34.99,
+      "imagen": "https://png.pngtree.com/png-vector/20220520/ourmid/pngtree-jpg-format-file-vector-icon-png-image_4712068.png",
+      "stock": 50
+    },
+    {
+      "id": 3,
+      "nombre": "Cama Ortopédica Premium",
+      "descripcion": "Cama de memory foam con funda lavable y diseño antideslizante",
+      "precio": 45.99,
+      "imagen": "https://png.pngtree.com/png-vector/20220520/ourmid/pngtree-jpg-format-file-vector-icon-png-image_4712068.png",
+      "stock": 30
+    },
+    {
+      "id": 4,
+      "nombre": "Comedero Automático",
+      "descripcion": "Dispensador programable con 6 comidas y control por app",
+      "precio": 79.99,
+      "imagen": "https://png.pngtree.com/png-vector/20220520/ourmid/pngtree-jpg-format-file-vector-icon-png-image_4712068.png",
+      "stock": 20
+    },
+    {
+      "id": 5,
+      "nombre": "Kit de Juguetes Interactivos",
+      "descripcion": "Set de 12 juguetes con plumas, ratones y pelotas con catnip",
+      "precio": 24.99,
+      "imagen": "https://png.pngtree.com/png-vector/20220520/ourmid/pngtree-jpg-format-file-vector-icon-png-image_4712068.png",
+      "stock": 40
+    },
+    {
+      "id": 6,
+      "nombre": "Arenero Autolimpiable",
+      "descripcion": "Caja de arena con sistema automático de limpieza y filtro de olores",
+      "precio": 159.99,
+      "imagen": "https://png.pngtree.com/png-vector/20220520/ourmid/pngtree-jpg-format-file-vector-icon-png-image_4712068.png",
+      "stock": 25
+    },
+    {
+      "id": 7,
+      "nombre": "Transportadora Deluxe",
+      "descripcion": "Transportín acolchado con ventilación 360° y bolsillos laterales",
+      "precio": 54.99,
+      "imagen": "https://png.pngtree.com/png-vector/20220520/ourmid/pngtree-jpg-format-file-vector-icon-png-image_4712068.png",
+      "stock": 35
+    },
+    {
+      "id": 8,
+      "nombre": "Túnel de Juego Plegable",
+      "descripcion": "Túnel de 3 vías con bolas colgantes y material crujiente",
+      "precio": 29.99,
+      "imagen": "https://png.pngtree.com/png-vector/20220520/ourmid/pngtree-jpg-format-file-vector-icon-png-image_4712068.png",
+      "stock": 12
+    }
+  ]
+}
